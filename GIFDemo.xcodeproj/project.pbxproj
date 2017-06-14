@@ -15,6 +15,18 @@
 		449487B11ED67F5200E140F8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 449487AF1ED67F5200E140F8 /* LaunchScreen.storyboard */; };
 		449487BC1ED67F5300E140F8 /* GIFDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 449487BB1ED67F5300E140F8 /* GIFDemoTests.m */; };
 		449487C71ED67F5300E140F8 /* GIFDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 449487C61ED67F5300E140F8 /* GIFDemoUITests.m */; };
+		449487D61ED67FF200E140F8 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 449487D51ED67FF200E140F8 /* ImageIO.framework */; };
+		449487D81ED6800900E140F8 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 449487D71ED6800900E140F8 /* MobileCoreServices.framework */; };
+		449487E01ED68B1400E140F8 /* clock01.png in Resources */ = {isa = PBXBuildFile; fileRef = 449487DA1ED68B1400E140F8 /* clock01.png */; };
+		449487E11ED68B1400E140F8 /* clock02.png in Resources */ = {isa = PBXBuildFile; fileRef = 449487DB1ED68B1400E140F8 /* clock02.png */; };
+		449487E21ED68B1400E140F8 /* clock03.png in Resources */ = {isa = PBXBuildFile; fileRef = 449487DC1ED68B1400E140F8 /* clock03.png */; };
+		449487E31ED68B1400E140F8 /* clock04.png in Resources */ = {isa = PBXBuildFile; fileRef = 449487DD1ED68B1400E140F8 /* clock04.png */; };
+		449487E41ED68B1400E140F8 /* clock05.png in Resources */ = {isa = PBXBuildFile; fileRef = 449487DE1ED68B1400E140F8 /* clock05.png */; };
+		449487E51ED68B1400E140F8 /* clock06.png in Resources */ = {isa = PBXBuildFile; fileRef = 449487DF1ED68B1400E140F8 /* clock06.png */; };
+		449487E81ED68D0A00E140F8 /* UIImage+GIF.m in Sources */ = {isa = PBXBuildFile; fileRef = 449487E71ED68D0A00E140F8 /* UIImage+GIF.m */; };
+		449487EB1ED6A5A700E140F8 /* GifView.m in Sources */ = {isa = PBXBuildFile; fileRef = 449487EA1ED6A5A700E140F8 /* GifView.m */; };
+		449487F01ED6CC1A00E140F8 /* NSGIF.m in Sources */ = {isa = PBXBuildFile; fileRef = 449487EE1ED6CC1A00E140F8 /* NSGIF.m */; };
+		449487F11ED6CC1A00E140F8 /* video.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 449487EF1ED6CC1A00E140F8 /* video.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +63,21 @@
 		449487C21ED67F5300E140F8 /* GIFDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GIFDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		449487C61ED67F5300E140F8 /* GIFDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GIFDemoUITests.m; sourceTree = "<group>"; };
 		449487C81ED67F5300E140F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		449487D51ED67FF200E140F8 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		449487D71ED6800900E140F8 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		449487DA1ED68B1400E140F8 /* clock01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clock01.png; sourceTree = "<group>"; };
+		449487DB1ED68B1400E140F8 /* clock02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clock02.png; sourceTree = "<group>"; };
+		449487DC1ED68B1400E140F8 /* clock03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clock03.png; sourceTree = "<group>"; };
+		449487DD1ED68B1400E140F8 /* clock04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clock04.png; sourceTree = "<group>"; };
+		449487DE1ED68B1400E140F8 /* clock05.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clock05.png; sourceTree = "<group>"; };
+		449487DF1ED68B1400E140F8 /* clock06.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clock06.png; sourceTree = "<group>"; };
+		449487E61ED68D0A00E140F8 /* UIImage+GIF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+GIF.h"; sourceTree = "<group>"; };
+		449487E71ED68D0A00E140F8 /* UIImage+GIF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+GIF.m"; sourceTree = "<group>"; };
+		449487E91ED6A5A700E140F8 /* GifView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GifView.h; sourceTree = "<group>"; };
+		449487EA1ED6A5A700E140F8 /* GifView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GifView.m; sourceTree = "<group>"; };
+		449487ED1ED6CC1A00E140F8 /* NSGIF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSGIF.h; sourceTree = "<group>"; };
+		449487EE1ED6CC1A00E140F8 /* NSGIF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSGIF.m; sourceTree = "<group>"; };
+		449487EF1ED6CC1A00E140F8 /* video.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video.mp4; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +85,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				449487D81ED6800900E140F8 /* MobileCoreServices.framework in Frameworks */,
+				449487D61ED67FF200E140F8 /* ImageIO.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +114,7 @@
 				449487BA1ED67F5300E140F8 /* GIFDemoTests */,
 				449487C51ED67F5300E140F8 /* GIFDemoUITests */,
 				4494879F1ED67F5200E140F8 /* Products */,
+				449487D41ED67FF200E140F8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,10 +131,16 @@
 		449487A01ED67F5200E140F8 /* GIFDemo */ = {
 			isa = PBXGroup;
 			children = (
+				449487EC1ED6CC0600E140F8 /* NSGIF */,
+				449487D91ED68B1400E140F8 /* clock */,
 				449487A41ED67F5200E140F8 /* AppDelegate.h */,
 				449487A51ED67F5200E140F8 /* AppDelegate.m */,
 				449487A71ED67F5200E140F8 /* ViewController.h */,
 				449487A81ED67F5200E140F8 /* ViewController.m */,
+				449487E91ED6A5A700E140F8 /* GifView.h */,
+				449487EA1ED6A5A700E140F8 /* GifView.m */,
+				449487E61ED68D0A00E140F8 /* UIImage+GIF.h */,
+				449487E71ED68D0A00E140F8 /* UIImage+GIF.m */,
 				449487AA1ED67F5200E140F8 /* Main.storyboard */,
 				449487AD1ED67F5200E140F8 /* Assets.xcassets */,
 				449487AF1ED67F5200E140F8 /* LaunchScreen.storyboard */,
@@ -138,6 +174,38 @@
 				449487C81ED67F5300E140F8 /* Info.plist */,
 			);
 			path = GIFDemoUITests;
+			sourceTree = "<group>";
+		};
+		449487D41ED67FF200E140F8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				449487D71ED6800900E140F8 /* MobileCoreServices.framework */,
+				449487D51ED67FF200E140F8 /* ImageIO.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		449487D91ED68B1400E140F8 /* clock */ = {
+			isa = PBXGroup;
+			children = (
+				449487DA1ED68B1400E140F8 /* clock01.png */,
+				449487DB1ED68B1400E140F8 /* clock02.png */,
+				449487DC1ED68B1400E140F8 /* clock03.png */,
+				449487DD1ED68B1400E140F8 /* clock04.png */,
+				449487DE1ED68B1400E140F8 /* clock05.png */,
+				449487DF1ED68B1400E140F8 /* clock06.png */,
+			);
+			path = clock;
+			sourceTree = "<group>";
+		};
+		449487EC1ED6CC0600E140F8 /* NSGIF */ = {
+			isa = PBXGroup;
+			children = (
+				449487ED1ED6CC1A00E140F8 /* NSGIF.h */,
+				449487EE1ED6CC1A00E140F8 /* NSGIF.m */,
+				449487EF1ED6CC1A00E140F8 /* video.mp4 */,
+			);
+			name = NSGIF;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -250,8 +318,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				449487B11ED67F5200E140F8 /* LaunchScreen.storyboard in Resources */,
+				449487F11ED6CC1A00E140F8 /* video.mp4 in Resources */,
+				449487E21ED68B1400E140F8 /* clock03.png in Resources */,
 				449487AE1ED67F5200E140F8 /* Assets.xcassets in Resources */,
 				449487AC1ED67F5200E140F8 /* Main.storyboard in Resources */,
+				449487E51ED68B1400E140F8 /* clock06.png in Resources */,
+				449487E11ED68B1400E140F8 /* clock02.png in Resources */,
+				449487E01ED68B1400E140F8 /* clock01.png in Resources */,
+				449487E31ED68B1400E140F8 /* clock04.png in Resources */,
+				449487E41ED68B1400E140F8 /* clock05.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,6 +353,9 @@
 			files = (
 				449487A91ED67F5200E140F8 /* ViewController.m in Sources */,
 				449487A61ED67F5200E140F8 /* AppDelegate.m in Sources */,
+				449487E81ED68D0A00E140F8 /* UIImage+GIF.m in Sources */,
+				449487F01ED6CC1A00E140F8 /* NSGIF.m in Sources */,
+				449487EB1ED6A5A700E140F8 /* GifView.m in Sources */,
 				449487A31ED67F5200E140F8 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -429,6 +507,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = C74GJQS7VJ;
 				INFOPLIST_FILE = GIFDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = demo.GIFDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -441,6 +520,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = C74GJQS7VJ;
 				INFOPLIST_FILE = GIFDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = demo.GIFDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
